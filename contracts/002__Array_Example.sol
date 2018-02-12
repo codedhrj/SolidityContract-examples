@@ -1,10 +1,17 @@
 // 0.4.7 is the version of solidity we are using, this version number helps the Solidity Compiler to compile correctly
 pragma solidity ^0.4.7;
 
-// PublicInbox is the name of the contract
-contract PublicInbox {
+/*
+    001_PublicInbox is the contract name. It could have been PublicInbox also,
+    but I intentionally appended 001_ to keep all the contracts sorted by filename.
+    So that everyone is able to find the next contract to learn easily.
+*/
+
+// Note: If you are running this contract - Change the contract name and constructor name from 001__PublicInbox to PublicInbox
+contract 001__PublicInbox {
+
     /*
-        string - signifies that the value to be stored in the variable will be string
+        string - signifies that the value to be stored in the variable will be public
         public - signifies that anyone in the world can read/write this variable
         message - name of the variable
 
@@ -17,7 +24,7 @@ contract PublicInbox {
         Constructor - It runs only once, when the contract is deployed on Ethereum Network.
         It also assigns the initial value to our "message" variable.
     */
-    function PublicInbox(string initialMessage) {
+    function 001__PublicInbox(string initialMessage) {
         message = initialMessage;
     }
 
