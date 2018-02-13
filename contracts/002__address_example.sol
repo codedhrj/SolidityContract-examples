@@ -9,7 +9,7 @@ contract AddressExample {
                   address instead of strings for ethereum addresses because we can run some functions like 'transfer'
                   directly on them
         public - signifies that anyone in the world can read/write this variable
-        message - name of the variable
+        owner - name of the variable
 
         Note: As our variable is public, therefore there is no need to add getOwner() function,
         Solidity Compiler adds that automatically.

@@ -9,7 +9,7 @@ contract ArrayExample {
                   address instead of strings for ethereum addresses because we can run some functions like 'transfer'
                   directly on them.
         public - signifies that anyone in the world can read/write this variable
-        message - name of the variable
+        players - name of the variable
     */
     address[] public players;
 
